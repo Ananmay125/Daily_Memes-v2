@@ -1,0 +1,84 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+}
+
+body {
+    background-color: #12181b;
+    display: flexbox;
+}
+
+.last-line {
+    text-align: justify;
+}
+
+.topnav {
+    background-color: darkblue;
+    overflow: hidden;
+    height: 50px;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Ysabeau;
+  }
+  
+  .topnav a:hover {
+    background-color: red;
+    color: white;
+  }
+
+  .topnav a.active {
+    background-color: red;
+    color: white;
+  }
+
+  .main{
+    text-align: center;
+    color: white;
+    font-family: Ysabeau;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+  }
+
+  .main:hover{
+    color: bisque;
+    cursor: pointer;
+  }
+
+  .topnav a.popular {
+    position: relative;
+    left: 1310px;
+    bottom: 45px;
+    padding-top: 17px;
+  }
+
+  .topnav a.new{
+    position: relative;
+    left: 1320px;
+    bottom: 45px;
+    padding-top: 17px;
+  }
+
+  .rickboii {
+    width: 1660px;
+    display: block;
+  }
+
+  .blackboii {
+    height: 10px;
+    color: black;
+    border-top: 20px double red;
+  }
